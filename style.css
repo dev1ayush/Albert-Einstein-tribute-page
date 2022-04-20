@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  overflow-x: hidden;
+  background-color: #dcdce6;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: green;
+  color: white;
+  height: 47px;
+  position: sticky;
+  top: 1px;
+  width: 100vw;
+  margin-top: 1px;
+}
+.logo img {
+  width: 118px;
+  padding-top: 3px;
+  position: relative;
+  top: -10px;
+}
+.title {
+  color: black;
+  position: relative;
+  top: 8px;
+}
+
+.social-link img {
+  width: 25px;
+}
+.social-link ul {
+  display: flex;
+  margin-right: 25px;
+  position: relative;
+  top: 6px;
+}
+
+.social-link ul li {
+  padding: 5px;
+  list-style: none;
+}
+
+.mhead h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #337ab7;
+}
+
+.mhead h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: #75a666;
+}
+.img img {
+  width: 190px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.img p {
+  text-align: center;
+}
+.quotes ul {
+  margin-left: 67px;
+  margin-right: 20px;
+}
+.quotes p {
+  text-align: center;
+  margin: 10px;
+}
+.contant {
+  margin-top: 50px;
+}
+.quotes .last-line {
+  text-align: left;
+  margin-left: 68px;
+  font-size: 25px;
+}
+.quotes .sign {
+  text-align: left;
+  margin-left: 50px;
+  font-size: small;
+}
+footer {
+  margin-left: 15px;
+  color: purple;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: #337ab7;
+}
