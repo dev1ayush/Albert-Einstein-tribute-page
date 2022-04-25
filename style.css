@@ -43,6 +43,7 @@ header {
 
 .social-link ul li {
   padding: 5px;
+  margin-left: 1rem;
   list-style: none;
 }
 
