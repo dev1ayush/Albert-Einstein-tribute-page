@@ -121,7 +121,7 @@ footer a {
 }
 
 
-@media only screen and (max-width: 392px) {
+@media only screen and (max-width: 440px) {
   .social-link ul{
     display: none;
   }
